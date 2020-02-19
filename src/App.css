@@ -1,0 +1,60 @@
+.articleCard {
+    border: 1px solid black;
+    /* Flex Box */
+    display: flex;
+    /*
+    flex-direction: row:
+    flex-wrap: nowrap;
+    justify-content: ;
+
+    /* Layout (standard) */
+    margin: 0 auto 30px; /* no vertical margin, auto horizontal margin */
+    max-width: 1080px;
+    padding: 15px 20px;
+    width: 100%;
+
+}
+
+.articleListing header h1 {
+    font-size: 64px;
+    font-weight: normal;
+}
+.articleCard_image {
+    flex-basis: 30%;
+}
+
+.articleCard_image img { /* you need to add "img" to target the image, not the container */
+    height: auto; 
+    width: 100%;
+}
+
+.articleCard_title {
+    flex-basis: 70%;
+    padding-left: 20px;
+}
+
+.articleHeader {
+    background-position: center;
+    background-size: cover;
+    padding: 100px 25px;
+}
+
+.articleHeaderWrapper {
+    margin: 0 auto;
+    max-width: 1080px;
+    width: 100%;
+}
+
+.articleContent {
+    padding: 30px 25px;
+}
+
+.articleContent p {
+    font-size: 16px; /* good practice to have 14-16px font */
+    line-height: 24px; /* should be 1.5 times your font-size */
+}
+
+.articleContentWrapper {
+    margin: 0 auto;
+    max-width: 640px;
+}
